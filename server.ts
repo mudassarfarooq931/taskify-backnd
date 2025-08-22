@@ -14,5 +14,5 @@ app.use("/api/auth", authRoutes);
 // Database Connect & Server Start
 const PORT = process.env.PORT || 3000;
 connectDB().then(() => {
-  app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+  app.listen(PORT, () => console.log(`🚀 Server running on porttt ${PORT}`));
 });
